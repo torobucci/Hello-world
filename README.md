@@ -26,7 +26,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 
-  <h3><b>Hello-World README Template</b></h3>
+  <h1 text-align="center"><b>Hello-World README Template</b></h1>
 
 </div>
 
@@ -127,7 +127,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-```sh gem install rails
+sh gem install rails
 <!--
 Example command:
 
@@ -139,10 +139,9 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-```sh
   cd hello-world
   git clone git@github.com:torobucii/hello-world.git
-```
+
 
 <!--
 Example commands:
@@ -156,11 +155,13 @@ Example commands:
 ### Install
 
 Install this project with:
-
+sh
+  cd Hello-world
+  gem install
 <!--
 Example command:
 
-```sh
+``sh
   cd my-project
   gem install
 ```
@@ -170,6 +171,7 @@ Example command:
 
 To run the project, execute the following command:
 
+sh rails server
 <!--
 Example command:
 
@@ -182,6 +184,7 @@ Example command:
 
 To run tests, run the following command:
 
+sh bin/rails test test/models/article_test.rb
 <!--
 Example command:
 
@@ -193,6 +196,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+sh
 
 <!--
 Example:
